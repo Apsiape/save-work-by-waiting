@@ -23,6 +23,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23310736
     description: "Version 1.0.1"
+  - type: doi
+    value: 10.5281/zenodo.23323044
+    description: "Version 1.0.2"
 url: "https://github.com/Apsiape/save-work-by-waiting"
 repository-code: "https://github.com/Apsiape/save-work-by-waiting"
 preferred-citation:

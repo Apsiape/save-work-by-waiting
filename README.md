@@ -30,7 +30,7 @@ All rates here are optimal asymptotic work rates at vanishing error over the com
 allowed to grow; where a controller comes back only approximately, its actual mean energy and entropy are also
 refunded up to sublinear changes.
 
-This repository contains the manuscript, its source, and the machine checks that accompany it. It is version 1.0.2 of the Zenodo record [doi:10.5281/zenodo.23310624](https://doi.org/10.5281/zenodo.23310624); that concept DOI always resolves to the latest version. Version 1.0.1 is [doi:10.5281/zenodo.23310736](https://doi.org/10.5281/zenodo.23310736) and version 1.0.0 is [doi:10.5281/zenodo.23310625](https://doi.org/10.5281/zenodo.23310625). The manuscript is the
+This repository contains the manuscript, its source, and the machine checks that accompany it. It is version 1.0.2 ([doi:10.5281/zenodo.23323044](https://doi.org/10.5281/zenodo.23323044)) of the Zenodo record [doi:10.5281/zenodo.23310624](https://doi.org/10.5281/zenodo.23310624); that concept DOI always resolves to the latest version. Version 1.0.1 is [doi:10.5281/zenodo.23310736](https://doi.org/10.5281/zenodo.23310736) and version 1.0.0 is [doi:10.5281/zenodo.23310625](https://doi.org/10.5281/zenodo.23310625). The manuscript is the
 authority for exact statements and hypotheses; [verification/README.md](verification/README.md) lists what is checked
 by machine and what is proved only in the text.
 
