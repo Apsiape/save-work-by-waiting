@@ -1,0 +1,44 @@
+{
+  "title": "Only quantum channels save work by waiting",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Douglas, Seth"
+    },
+    {
+      "name": "Mghirbi, Nidhal"
+    }
+  ],
+  "description": "<p>Faist, Berta and Brandão showed that n uses of a time-covariant quantum channel cost, to leading order, n times its thermodynamic capacity, when the device may collect all inputs before it releases any output. Many devices cannot wait: they must release each output before the next input arrives. This paper shows that, for devices built from energy-conserving dynamics and heat baths, this can cost extra work, but only for quantum channels, and determines exactly how much.</p><ul><li><strong>Real-time work law.</strong> For a time-covariant channel the real-time work per use is a maximum over inputs of an entropy change plus an energy change, with one extra term: the least correlation an implementation must leave between each output and what stays in the device. Below this rate, with thermal hardware and deterministic work, the worst-case error of every real-time device tends to one.</li><li><strong>Only quantum channels pay.</strong> Classical channels, including full reset, pay no surcharge. Partial reset of a qubit pays one at every temperature, and the Werner–Holevo qutrit channel pays kT ln 3 per use, against essentially nothing in batch.</li><li><strong>What is free, and undecidability.</strong> In real time a channel costs nothing exactly when it is a limit of thermal operations, and no algorithm decides which channels these are, even in a fixed dimension.</li><li><strong>Clocks.</strong> If the battery holds no phase reference of its own, a clock that must come back exactly cannot run a channel that is not time-covariant; one that may come back slightly changed, with its actual mean energy and entropy refunded, runs every channel at the same rate, and for a gate the heat baths must reach energies that grow faster than the number of uses.</li></ul><p>All rates here are optimal asymptotic work rates at vanishing error over the complete interaction, with hardware allowed to grow; where a controller comes back only approximately, its actual mean energy and entropy are also refunded up to sublinear changes.</p><p>This record archives the manuscript, its TeX source and its machine checks (Python, and Lean with Mathlib). The manuscript is the authority for exact statements and hypotheses; the verification notes list what is checked by machine and what is proved only in the text. How the work was done, including the use of AI models, is described in the manuscript.</p><p>This paper is one of four on the thermodynamics of time order: <em>The work cost of answering in real time</em> (https://github.com/Apsiape/answering-in-real-time); <em>The price of keeping time</em> (https://github.com/Apsiape/price-of-keeping-time); <em>The price of time order</em> (https://github.com/Apsiape/price-of-time-order).</p><p><strong>Scoped licenses:</strong> the manuscript, PDF and TeX source are licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0). The software and machine-readable verification artifacts are additionally available under the MIT License. See RIGHTS.md in the archive. The aggregate Other (Open) category represents this mixed-license package.</p>",
+  "license": "other-open",
+  "access_right": "open",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "quantum thermodynamics",
+    "quantum channels",
+    "thermodynamic capacity",
+    "Landauer principle",
+    "real-time computation",
+    "undecidability"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Apsiape/answering-in-real-time",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/Apsiape/price-of-keeping-time",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/Apsiape/price-of-time-order",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "notes": "CC-BY-4.0 applies to the manuscript; MIT applies to the software and verification artifacts. RIGHTS.md specifies the scopes."
+}

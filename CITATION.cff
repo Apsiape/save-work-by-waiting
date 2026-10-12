@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript; this repository supplies its source and verification artifacts."
+type: software
+title: "Only quantum channels save work by waiting"
+version: 1.0.0
+date-released: 2026-10-11
+license:
+  - CC-BY-4.0
+  - MIT
+authors:
+  - family-names: Douglas
+    given-names: Seth
+  - family-names: Mghirbi
+    given-names: Nidhal
+url: "https://github.com/Apsiape/save-work-by-waiting"
+repository-code: "https://github.com/Apsiape/save-work-by-waiting"
+preferred-citation:
+  type: generic
+  title: "Only quantum channels save work by waiting"
+  authors:
+    - family-names: Douglas
+      given-names: Seth
+    - family-names: Mghirbi
+      given-names: Nidhal
+  year: 2026
+  notes: "Preprint with accompanying verification artifacts; see RIGHTS.md for license scope."
